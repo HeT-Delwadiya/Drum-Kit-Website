@@ -18,37 +18,37 @@ function playSound(pressedBtn) {
 
     switch(pressedBtn) {
         case "w" :
-            var tom1 = new Audio("/sounds/tom-1.mp3");
+            var tom1 = new Audio("https://github.com/HeT-Delwadiya/Drum-Kit-Website/blob/main/sounds/tom-1.mp3?raw=true");
             tom1.play();
             break;
 
         case "a" :
-            var tom2 = new Audio("/sounds/tom-2.mp3");
+            var tom2 = new Audio("https://github.com/HeT-Delwadiya/Drum-Kit-Website/blob/main/sounds/tom-2.mp3?raw=true");
             tom2.play();
             break;
         
         case "s" :
-            var tom3 = new Audio("/sounds/tom-3.mp3");
+            var tom3 = new Audio("https://github.com/HeT-Delwadiya/Drum-Kit-Website/blob/main/sounds/tom-3.mp3?raw=true");
             tom3.play();
             break;
 
         case "d" :
-            var tom4 = new Audio("/sounds/tom-4.mp3");
+            var tom4 = new Audio("https://github.com/HeT-Delwadiya/Drum-Kit-Website/blob/main/sounds/tom-4.mp3?raw=true");
             tom4.play();
             break;
 
         case "j" :
-            var snare = new Audio("/sounds/snare.mp3");
+            var snare = new Audio("https://github.com/HeT-Delwadiya/Drum-Kit-Website/blob/main/sounds/snare.mp3?raw=true");
             snare.play();
             break;
 
         case "k" :
-            var crash = new Audio("/sounds/crash.mp3");
+            var crash = new Audio("https://github.com/HeT-Delwadiya/Drum-Kit-Website/blob/main/sounds/crash.mp3?raw=true");
             crash.play();
             break;
 
         case "l" :
-            var kick = new Audio("/sounds/kick-bass.mp3");
+            var kick = new Audio("https://github.com/HeT-Delwadiya/Drum-Kit-Website/blob/main/sounds/kick-bass.mp3?raw=true");
             kick.play();
             break;
     }
