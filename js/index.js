@@ -18,7 +18,7 @@ function playSound(pressedBtn) {
 
     switch(pressedBtn) {
         case "w" :
-            var tom1 = new Audio("/sounds/tom-1.mp3");
+            var tom1 = new Audio("https://github.com/HeT-Delwadiya/Drum-Kit-Website/blob/main/sounds/tom-1.mp3");
             tom1.play();
             break;
 
